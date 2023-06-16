@@ -1,0 +1,77 @@
+html {
+  scroll-behavior: smooth;
+ }
+
+body, h1,h2,h3,h4,h5,h6 {
+    font-family: "Montserrat", sans-serif
+}
+
+.w3-row-padding img {
+    margin-bottom: 12px
+}
+
+/* Set the width of the sidebar to 120px */
+.openAvatar {
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  position: fixed;
+}
+
+.w3-sidebar {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black*/
+    padding-top: 0px;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+
+.w3-sidebar img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.w3-sidebar a {
+    text-decoration: none;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+
+.w3-sidebar a:hover {
+    color: #f1f1f1;
+  }
+
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+
+.w3-sidebar .closeAvatar {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {
+    #main {
+        margin-left: 0
+    }
+}
+
+.w3-sidebar a:active {
+  color:#818181;
+}
+
+.w3-sidebar a:focus {
+  color:black;
+}

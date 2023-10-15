@@ -33,6 +33,12 @@
     <i class="fa fa-envelope w3-xxlarge" onClick="document.getElementById('toContact').scrollIntoView();"></i>
     <p>CONTACT</p>
   </a>
+  <div class="w3-padding-large">
+    <p> how many times have you clicked on this site: <br> <br>
+      <a class="clicks">0</a>
+    </p>
+    <i class="fa fa-refresh w3-button reset"></i>
+  </div>
 </nav>
 
 <!-- Navbar on small screens (Hidden on medium and large screens) -->
@@ -199,6 +205,25 @@ function closeSidebar() {
     document.getElementById("sidebar").style.width = "0";
     document.getElementById("main").style.marginLeft = "0";
     document.body.style.backgroundColor = "white";
+}
+
+const click = document.querySelector('.click');
+click.onclick = Counter;
+const reset = document.querySelector('.reset');
+reset.onclick = resetCounter;
+const clicks = document.querySelector('.clicks');
+clicks.id = document.querySelector('clicks');
+
+var a = 0;
+
+function Counter() {
+    a += 1;
+    clicks.innerHTML = a;
+}
+
+function resetCounter() {
+    a = 0;
+    clicks.innerHTML = a;
 }
 </script>
 <link rel="javascript" href="index.js">

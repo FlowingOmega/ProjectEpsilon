@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body class="w3-black">
+<body class="w3-black click">
 
 <!-- Icon Bar (Sidebar - hidden on small screens) -->
 <i class="fa fa-bars w3-padding-large w3-button openAvatar" onclick="openSidebar();"></i>
@@ -87,7 +87,7 @@
     <p>completed <a href="#proof" id="showProof" onclick="document.getElementById('showProof').scrollIntoView();">(the norwegian lives in the first house)</a></p>
     </div><br>
 
-    <a href="726573756d657374617274.docx" download="726573756d657374617274"><button class="w3-button w3-light-grey w3-padding-large w3-section">
+    <a href="726573756d657374617274.docx" download type="file"><button class="w3-button w3-light-grey w3-padding-large w3-section">
       <i class="fa fa-download"></i> Download Resume
     </button></a>
     
@@ -193,7 +193,7 @@ function Counter() {
 }
 
 function resetCounter() {
-    a = 0;
+    a = -1;
     clicks.innerHTML = a;
 }
 </script>

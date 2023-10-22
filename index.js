@@ -50,7 +50,7 @@ const handleOnMove = e => {
   letters.style.setProperty("--x", `${x}px`);
   letters.style.setProperty("--y", `${y}px`);
 
-  letters.innerText = randomString(1500);    
+  letters.innerText = randomString(1510);    
 }
 
 sidebar.onmousemove = e => handleOnMove(e);

@@ -30,7 +30,7 @@ const handleOnMove = e => {
   letters.style.setProperty("--x", `${x}px`);
   letters.style.setProperty("--y", `${y}px`);
 
-  letters.innerText = randomString(1100000);    
+  letters.innerText = randomString(1000);    
 }
 
 card.onmousemove = e => handleOnMove(e);
@@ -81,6 +81,8 @@ body {
   align-items: center;
   justify-content: center;
   aspect-ratio: 1;
+  position: relative;
+  margin: 1rem;
   border-radius: 2rem;
   overflow: hidden;
   cursor: pointer;

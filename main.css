@@ -47,8 +47,12 @@ body, h1,h2,h3,h4,h5,h6 {
 
 .w3-sidebar a:hover {
     color: #f1f1f1;
+    background-color: black;
   }
 
+.counter {
+    background-color: black;
+}
 #main {
     transition: margin-left .5s;
     padding: 20px;

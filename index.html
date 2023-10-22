@@ -13,7 +13,8 @@
 <!-- Icon Bar (Sidebar - hidden on small screens) -->
 <i class="fa fa-bars w3-padding-large w3-button openAvatar" onclick="openSidebar();"></i>
 
-<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center" id="sidebar">
+<div class="sidebar">
+<nav class="w3-sidebar w3-small w3-hide-small w3-center" id="sidebar">
   <!-- Avatar image in top left corner -->
   <a href="javascript:void(0)" class="closeAvatar" onclick="closeSidebar()">×</a>
   <img src="https://raw.githubusercontent.com/FlowingOmega/neverfound/main/profile_picture.jpg" alt="useravatar" >
@@ -39,7 +40,9 @@
     </p>
     <i class="fa fa-refresh w3-button reset"></i>
   </div>
+  <div class="sidebar-letters"></div>
 </nav>
+</div>
 
 <!-- Navbar on small screens (Hidden on medium and large screens) -->
 <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">

@@ -18,12 +18,8 @@ body, h1,h2,h3,h4,h5,h6 {
   position: fixed;
 }
 
-.completion{
-  color: purple;
+.w3-deep-purple {
   transition: color 400ms;
-}
-.completion:hover {
-  color: blueviolet;
 }
 .w3-sidebar {
     height: 100%; /* 100% Full-height */

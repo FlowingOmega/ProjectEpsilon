@@ -101,6 +101,12 @@ body, h1,h2,h3,h4,h5,h6 {
   transition: opacity 400ms;
   scale: 1.03;
   z-index: -2;
+  -webkit-mask-image: radial-gradient(
+    calc(var(--sidebar-size) * 0.8) circle at var(--x) var(--y), 
+    rgb(255 255 255) 20%, 
+    rgb(255 255 255 / 25%), 
+    transparent
+  );
   mask-image: radial-gradient(
     calc(var(--sidebar-size) * 0.8) circle at var(--x) var(--y), 
     rgb(255 255 255) 20%, 

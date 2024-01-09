@@ -1,0 +1,37 @@
+#button{
+        border: none;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: circle;
+        cursor: pointer;
+}
+body {
+        background-color: #000000;
+        color: #ffffff;
+        font-family: "ＭＳ Ｐゴシック";
+}
+#clickcount {
+        text-align: center;
+}
+#copyrightsystem {
+        position: absolute;
+        bottom: -15px;
+        right: 5px;
+}
+#home {
+        position: absolute;
+        bottom: 10px;
+        left: 5px;      
+}
+
+#vaporbg {
+        max-width: 100%;
+        max-height: 100%;
+        margin: auto;
+        display: block;
+}
+
+#GODPLEASENO {
+        color: #ff0000;
+}
